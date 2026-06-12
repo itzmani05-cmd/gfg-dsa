@@ -1,0 +1,29 @@
+// User solved: Size of Binary Tree
+// Problem URL: https://www.geeksforgeeks.org/batch/dsa-self-paced-original-2026/track/DSASPTree/problem/size-of-binary-tree
+// Language: Java
+// Synced using GFG -> GitHub Sync Chrome Extension
+
+/*
+Definition for Node
+class Node
+{
+    int data;
+    Node left;
+    Node right;
+
+    Node(int data)
+    {
+        this.data = data;
+        left = null;
+        right = null;
+    }
+}
+*/
+class Solution {
+    public int getSize(Node root) {
+        if(root==null){
+            return 0;
+        }
+        return 1+getSize(root.left)+getSize(root.right);
+    }
+}
