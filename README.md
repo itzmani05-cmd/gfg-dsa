@@ -1,4 +1,3 @@
-````md id="8r9lka"
 # GeeksforGeeks DSA Journey 🚀
 
 A structured collection of **Data Structures & Algorithms (DSA)** problems solved daily in **Java** as part of my continuous learning journey through the **GeeksforGeeks Self-Paced DSA Course**.
