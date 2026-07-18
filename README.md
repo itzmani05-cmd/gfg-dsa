@@ -33,10 +33,13 @@ Problems are solved regularly and organized based on topics for easy navigation 
 
 ```txt
 DSA/
+│── Bit Manipulation/
 │── Arrays/
 │── Strings/
 │── Searching/
 │── Sorting/
+│── Matrix/
+│── Mathematics/
 │── Recursion/
 │── LinkedList/
 │── Stack/
